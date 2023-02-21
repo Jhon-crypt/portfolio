@@ -1,11 +1,11 @@
 import React from 'react';
 import {Outlet, Link} from "react-router-dom"
 import logo from '../images/nftt.png'
-import { AiOutlineEllipsis } from "react-icons/ai"
 import { AiOutlineHome } from "react-icons/ai"
 import { AiOutlineCode } from "react-icons/ai"
 import { AiOutlineThunderbolt } from "react-icons/ai"
 import { AiOutlineProfile } from "react-icons/ai"
+import { AiOutlineStar } from "react-icons/ai"
 
 function Header() {
 
@@ -59,7 +59,7 @@ function Header() {
                     </ul>
 
                     <button className="btn btn-outline-light">
-                        <AiOutlineEllipsis />
+                        <AiOutlineStar />
                     </button>
                     
                 </div>

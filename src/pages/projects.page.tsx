@@ -25,7 +25,7 @@ function Projects(): JSX.Element{
 
                 <div className="col">
 
-                    <div className="card bg-dark mb-2" style={{"width":"200px"}}>
+                    <div className="card bg-dark mb-2">
 
                         <img className="crad-img-top" src={image1}
                         style={{"objectFit":"cover","height":"150px"}} alt="logo"/>
@@ -51,7 +51,7 @@ function Projects(): JSX.Element{
 
                 <div className="col">
 
-                    <div className="card bg-dark mb-2" style={{"width":"200px"}}>
+                    <div className="card bg-dark mb-2">
 
                         <img className="crad-img-top" src={image2}
                         style={{"objectFit":"cover","height":"150px"}} alt="logo"/>
@@ -76,7 +76,7 @@ function Projects(): JSX.Element{
 
                 <div className="col">
 
-                    <div className="card bg-dark mb-2" style={{"width":"200px"}}>
+                    <div className="card bg-dark mb-2">
 
                         <img className="crad-img-top" src={image3} 
                         style={{"objectFit":"cover","height":"150px"}} alt="logo"/>
@@ -102,7 +102,7 @@ function Projects(): JSX.Element{
 
                 <div className="col">
 
-                    <div className="card bg-dark mb-2" style={{"width":"200px"}}>
+                    <div className="card bg-dark mb-2">
 
                         <img className="crad-img-top" src={image4}
                         style={{"objectFit":"cover","height":"150px"}} alt="logo"/>
@@ -128,7 +128,7 @@ function Projects(): JSX.Element{
 
                 <div className="col">
 
-                    <div className="card bg-dark mb-2" style={{"width":"200px"}}>
+                    <div className="card bg-dark mb-2">
 
                         <img className="crad-img-top" src={image5}
                         style={{"objectFit":"cover","height":"150px"}} alt="logo"/>
