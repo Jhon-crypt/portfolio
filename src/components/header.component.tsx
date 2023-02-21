@@ -16,7 +16,7 @@ function Header() {
 
             <div className="container-fluid">
 
-                <a className="navbar-brand" href="#">
+                <a className="navbar-brand" href="/">
                     <img className="rounded-circle me-2" src={logo} 
                     style={{"objectFit":"cover","border":"1px solid black","height":"50px",
                     "borderRadius":"25px","width":"50px"}} alt="logo"/> 
@@ -33,25 +33,25 @@ function Header() {
                     <ul className="navbar-nav mx-auto mb-md-0" style={{ "width" : "450px"}}>
 
                         <li className="nav-item">
-                            <a className="nav-link active">
+                            <a className="nav-link active" href="/">
                                 <Link className="text-light text-decoration-none" to="/"><AiOutlineHome /> Home</Link>
                             </a>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link active">
+                            <a className="nav-link active" href="/">
                                 <Link className="text-light text-decoration-none" to="/Skills"><AiOutlineThunderbolt /> Skills</Link>
                             </a>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link active">
+                            <a className="nav-link active" href="/">
                                 <Link className="text-light text-decoration-none" to="/Projects"><AiOutlineCode /> Projects</Link>
                             </a>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link active">
+                            <a className="nav-link active" href="/">
                                 <Link className="text-light text-decoration-none" to="/Contact"><AiOutlineProfile /> Contact</Link>
                             </a>
                         </li>

@@ -7,7 +7,7 @@ import image4 from '../images/phoneshopz.png'
 import image5 from '../images/recap-app.netlify.app_.png'
 
 
-function Projects(){
+function Projects(): JSX.Element{
 
     return (
 
@@ -28,7 +28,7 @@ function Projects(){
                     <div className="card bg-dark mb-2" style={{"width":"200px"}}>
 
                         <img className="crad-img-top" src={image1}
-                        style={{"objectFit":"cover","height":"150px"}}/>
+                        style={{"objectFit":"cover","height":"150px"}} alt="logo"/>
 
                         <div className="card-img-overlay" style={{"fontWeight":"bold","border":"1px solid",
                         "backgroundColor" : "rgba(0,0,0,0.4)"}}>
@@ -54,7 +54,7 @@ function Projects(){
                     <div className="card bg-dark mb-2" style={{"width":"200px"}}>
 
                         <img className="crad-img-top" src={image2}
-                        style={{"objectFit":"cover","height":"150px"}}/>
+                        style={{"objectFit":"cover","height":"150px"}} alt="logo"/>
 
                         <div className="card-img-overlay" style={{"fontWeight":"bold","border":"1px solid","backgroundColor": "rgba(0,0,0,0.4)"}}>
 
@@ -79,7 +79,7 @@ function Projects(){
                     <div className="card bg-dark mb-2" style={{"width":"200px"}}>
 
                         <img className="crad-img-top" src={image3} 
-                        style={{"objectFit":"cover","height":"150px"}}/>
+                        style={{"objectFit":"cover","height":"150px"}} alt="logo"/>
 
                         <div className="card-img-overlay" style={{"fontWeight":"bold","border":"1px solid",
                         "backgroundColor": "rgba(0,0,0,0.4)"}}>
@@ -105,7 +105,7 @@ function Projects(){
                     <div className="card bg-dark mb-2" style={{"width":"200px"}}>
 
                         <img className="crad-img-top" src={image4}
-                        style={{"objectFit":"cover","height":"150px"}}/>
+                        style={{"objectFit":"cover","height":"150px"}} alt="logo"/>
 
                         <div className="card-img-overlay" style={{"fontWeight":"bold","border":"1px solid",
                         "backgroundColor": "rgba(0,0,0,0.4)"}}>
@@ -131,7 +131,7 @@ function Projects(){
                     <div className="card bg-dark mb-2" style={{"width":"200px"}}>
 
                         <img className="crad-img-top" src={image5}
-                        style={{"objectFit":"cover","height":"150px"}}/>
+                        style={{"objectFit":"cover","height":"150px"}} alt="logo"/>
 
                         <div className="card-img-overlay" style={{"fontWeight":"bold","border":"1px solid",
                         "backgroundColor": "rgba(0,0,0,0.4)"}}>
