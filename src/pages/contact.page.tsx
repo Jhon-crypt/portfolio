@@ -1,4 +1,5 @@
 import React from 'react';
+import { AiOutlineProfile } from "react-icons/ai"
 
 function Contact(){
 
@@ -9,16 +10,16 @@ function Contact(){
         <div id="contact" className="mt-5 py-5 pb-5 container text-light">
 
             <h3 className="text-center display-5 fw-bold">
-                Contact <i className="fa fa-address-book"></i>
+                Contact <AiOutlineProfile />
             </h3>
 
             <div className="text-center">
 
-            <div className="row pt-4 mx-auto" style={{ "width" : "150px" }}>
+            <div className="row pt-4">
 
-                <div className="col">
+                <div className="col mb-2">
 
-                    <div className="card bg-dark" style={{"width":"200px"}}>
+                    <div className="card bg-dark" style={{"width":"300px"}}>
 
                         <div className="card-body">
 
@@ -34,9 +35,9 @@ function Contact(){
 
                 </div>
 
-                <div className="col">
+                <div className="col mb-2">
 
-                    <div className="card bg-dark" style={{"width":"200px"}}>
+                    <div className="card bg-dark" style={{"width":"300px"}}>
 
                         <div className="card-body">
 
@@ -52,9 +53,9 @@ function Contact(){
 
                 </div>
 
-                <div className="col">
+                <div className="col mb-2">
 
-                    <div className="card bg-dark" style={{"width":"200px"}}>
+                    <div className="card bg-dark" style={{"width":"300px"}}>
 
                         <div className="card-body">
 
@@ -70,9 +71,9 @@ function Contact(){
 
                 </div>
 
-                <div className="col">
+                <div className="col mb-2">
 
-                    <div className="card bg-dark" style={{"width":"200px"}}>
+                    <div className="card bg-dark" style={{"width":"300px"}}>
 
                         <div className="card-body">
 
