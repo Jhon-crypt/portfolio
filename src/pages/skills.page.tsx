@@ -13,7 +13,7 @@ function Skills(){
                 Skills <AiOutlineThunderbolt />
             </h2>
 
-            <div className="row pt-4">
+            <div className="row pt-4 mx-auto" style={{ "width" : "150px" }}>
 
                 <div className="col">
 
