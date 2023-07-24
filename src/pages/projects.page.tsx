@@ -89,7 +89,7 @@ function Projects(): JSX.Element {
                                 TBVH(To be Very Honest)
                             </h4>
 
-                            <p>A simple car landing page</p>
+                            <p>A anonymous chatting site</p>
 
                             <a href="https://tbvh.vercel.app/" className="btn btn-light text-dark">
                                 View <i className="fa fa-external-link"></i>
