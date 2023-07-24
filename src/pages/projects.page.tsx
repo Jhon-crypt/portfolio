@@ -1,8 +1,8 @@
 import React from 'react';
 import { AiOutlineCode } from "react-icons/ai"
-import image1 from '../images/www.edtech-classroom.epizy.com_dashboard_lecturer-dashboard_.png'
-import image2 from '../images/taskstack.png'
-import image3 from '../images/wheelsx.netlify.app_.png'
+import image1 from '../images/wizard.png'
+import image2 from '../images/life.png'
+import image3 from '../images/tbvh.png'
 import image4 from '../images/phoneshopz.png'
 import image5 from '../images/recap-app.netlify.app_.png'
 import image6 from '../images/imagex.png'
@@ -35,12 +35,12 @@ function Projects(): JSX.Element {
                         "backgroundColor" : "rgba(0,0,0,0.4)"}}>
 
                             <h4 className="card-title">
-                                Edtech-Class
+                                Wizard Ai
                             </h4>
 
-                            <p className="card-text">A course management system</p>
+                            <p className="card-text">Research Made Easy With Ai</p>
 
-                            <a href="https://www.edtech-classroom.epizy.com/" className="btn btn-light text-dark">
+                            <a href="https://wizardai.vercel.app/" className="btn btn-light text-dark">
                                 View <i className="fa fa-external-link"></i>
                             </a>
 
@@ -60,12 +60,12 @@ function Projects(): JSX.Element {
                         <div className="card-img-overlay" style={{"fontWeight":"bold","border":"1px solid","backgroundColor": "rgba(0,0,0,0.4)"}}>
 
                             <h4 className="card-title">
-                                Task stack
+                                Life Machines
                             </h4>
 
-                            <p>A very simple task manager</p>
+                            <p>Landing page for a custom pc provider</p>
 
-                            <a href="https://taskstack.epizy.com/" className="btn btn-light text-dark">
+                            <a href="https://life-machines.vercel.app/" className="btn btn-light text-dark">
                                 View <i className="fa fa-external-link"></i>
                             </a>
 
@@ -86,12 +86,12 @@ function Projects(): JSX.Element {
                         "backgroundColor": "rgba(0,0,0,0.4)"}}>
 
                             <h4 className="card-title">
-                                WheelsX
+                                TBVH(To be Very Honest)
                             </h4>
 
                             <p>A simple car landing page</p>
 
-                            <a href="https://wheelsx.netlify.app/" className="btn btn-light text-dark">
+                            <a href="https://tbvh.vercel.app/" className="btn btn-light text-dark">
                                 View <i className="fa fa-external-link"></i>
                             </a>
 
